@@ -13,7 +13,6 @@ def writeFile(path,text):
     file.write(text)
     file.close()
 
-
 def wrapperInject():
     return '''Events = new Set(['Keydown','Keyup','Keypress','Scroll','Mousewheel','Wheel','Doubleclick','Select','Click','Mousedown','Mouseup','Blur','Focus','Cut','Copy','Paste','Mouseenter','Mouseout','Mousemove','Mouseover'])
 orig = EventTarget.prototype.addEventListener;
