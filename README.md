@@ -16,10 +16,11 @@ We implemented a tool for extension developers that allows them to retroactively
 Our tool is a function wrapper in JavaScript that verifies the user triggered events (e.g., click, doubleclick, mouseover, copy,paste,etc. ) origin by overriing the **adddEventListener**}.
 
 The function wrapper is located [here](tools/wrapper.js)
+
 **Usage**
 Run the next command to automatically inject the wrapper in the content-script
 
-`defense.py -w path_to_whiteList_file -i path_to_js_file -o output_file`
+`inject.py -i path_to_content_script`
 
 
 
