@@ -44,8 +44,8 @@ if __name__ == "__main__":
         exit(-1)
     input_file=args.input
     output_file=args.input
-    text = readFile(input_file)
+    source_code = readFile(input_file)
     wrapper = wrapperInject()
-    text = wrapper + text
-    writeFile(output_file,text)
+    text = wrapper + source_code
+    writeFile(output_file,source_code)
     print("Updated content script : ",output_file)
