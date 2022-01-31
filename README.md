@@ -19,7 +19,7 @@ The function wrapper is located [here](tools/wrapper.js)
 **Usage**
 Run the next command to automatically inject the wrapper in the content-script
 
-_tools/defense.py -i path_to_content_script_
+`tools/defense.py -i path_to_content_script'
 
 
 
