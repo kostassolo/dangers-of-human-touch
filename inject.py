@@ -21,7 +21,6 @@ EventTarget.prototype.addEventListener = function(){
     let handler = arguments[1]
     arguments[1] = function(){
        let event = arguments[0];
-       //event's origin
        if (event.isTrusted == false)
          return;
        else
