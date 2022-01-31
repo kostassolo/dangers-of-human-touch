@@ -7,4 +7,13 @@ Paper : (to appear) in Usenix 22'
 
 
 ### Demo
-abc
+https://vimeo.com/665084186/fd4641200d
+
+
+### Defense tool
+
+We implemented a tool for extension developers that allows them to retroactively fortify their extensions against pages that simulate user actions.
+Our tool is a function wrapper in JavaScript that verifies the user triggered events (e.g., click, doubleclick, mouseover, copy,paste,etc. ) origin by overriing the \textbf{adddEventListener} function.
+
+
+
