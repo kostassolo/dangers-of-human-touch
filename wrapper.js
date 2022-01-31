@@ -1,4 +1,3 @@
-
 // All the mouse and key events
 Events = new Set(['Keydown','Keyup','Keypress','Scroll','Mousewheel','Wheel','Doubleclick','Select','Click','Mousedown','Mouseup','Blur','Focus','Cut','Copy','Paste','Mouseenter','Mouseout','Mousemove','Mouseover'])
 orig = EventTarget.prototype.addEventListener;
