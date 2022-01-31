@@ -50,15 +50,3 @@ if __name__ == "__main__":
     text = wrapper + text
     writeFile(output_file,text)
     print("Updated content script : ",output_file)
-
-
-
-    # input_file,output_file,parser = inputParser()
-    # if not csv or not input_file or not output_file:
-    #     print parser.print_help()
-    #     return
-    # text = readFile(input_file)
-    # wrapper = generateWrapper(conditions)
-    # text = wrapper + text
-    # writeFile(output_file,text)
-    # print ("The output is written to \'"+output_file+"\'")
