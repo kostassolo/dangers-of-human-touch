@@ -39,9 +39,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tool injecting wrapper function in content script.')
     parser.add_argument('-i', '--input', type=str, nargs='?',help='content-script path')
     args = parser.parse_args()
-    
     if not args.input:
         print (parser.print_help())
+        exit(-1)
     input_file=args.input
     output_file=args.input
     text = readFile(input_file)
