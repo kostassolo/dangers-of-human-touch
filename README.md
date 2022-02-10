@@ -7,7 +7,7 @@ Paper : (to appear) in Usenix 22'
 
 
 ### Demo
-Visit the  [demo page](https://vimeo.com/665084186/fd4641200d)
+Visit the  [demo page](demo/demo___the_dangers_of_human_touch (1080p).mp4)
 
 
 ### Defense tool
