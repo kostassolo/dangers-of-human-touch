@@ -7,7 +7,6 @@ Paper : (to appear) in Usenix 22'
 
 
 ### Demo
-//Visit the  [demo page](https://github.com/kostassolo/dangers-of-human-touch/blob/main/demo/demo___the_dangers_of_human_touch%20(1080p).mp4)
 
 ![ Alt text](demo/demo.gif) / ! [](demo/demo.gif)
 ### Defense tool
