@@ -8,7 +8,7 @@ Paper : (to appear) in Usenix 22'
 
 ### Demo
 
-![ Alt text](demo/demo.gif) / (demo/demo.gif)
+![ Alt text](demo/demo.gif) 
 ### Defense tool
 
 We implemented a tool for extension developers that allows them to retroactively fortify their extensions against pages that simulate user actions.
